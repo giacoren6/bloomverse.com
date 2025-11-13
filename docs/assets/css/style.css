@@ -5,8 +5,8 @@
 }
 
 .logo {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10%;
     margin-right: 10px;
@@ -140,4 +140,20 @@ footer {
       max-width: 400px;
     }
   }
+
+    @media (max-width: 600px) {
+        .logo {
+        width: 100%;
+        height:auto;
+        margin-bottom: 10px;
+        }
+    
+        .profile-image {
+        max-width: 100%;
+        }
+    
+        .container {
+        padding: 10px;
+        }
+    }
   
